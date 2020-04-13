@@ -147,7 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DS.c" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="Recursion.c" />
+    <ClCompile Include="Tree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="recursion.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DS.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
